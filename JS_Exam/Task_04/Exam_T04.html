@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Exam_T04</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form action="">
+        <div id="age">
+            <h4>Пассажир ( Взрослый )</h4>
+        </div>
+        <div id="sex">
+            Пол
+            <input name="sex" type="radio" id="sexMale" value="left">Mужской
+            <input name="sex" type="radio" id="sexFemale" value="none">Женский
+        </div>
+
+        <div class="name">
+            Фамилия
+            <br>
+            <input type="text" placeholder="Иванов" class="text">
+        </div>
+        <div class="name">
+            Имя
+            <br>
+            <input type="text" placeholder="Иван" class="text">
+        </div>
+        <div class="name">
+            Отчество
+            <br>
+            <input type="text" placeholder="Иванович" class="text">
+        </div>
+        <div class="name">
+            Дата рождения
+            <br>
+            <input type="text" placeholder="дд/мм/гггг" class="text">
+        </div>
+
+
+        <div class="type_document">
+            Тип документа <br>
+            <select value="1" selected id="documents">
+                <option value="Passport">Паспорт Республики Беларусь</option>
+                <option value="Birth_Сertificate">Свидетельство о рождении</option>
+                <option value="Military_ID">Военный билет</option>
+                <option value='Residence'>Вид на жительство</option>
+            </select>
+        </div>
+        <div class="type_document">
+            <div id="form_text"> Серия, № документа <br></div>
+            <input type="text" placeholder="MC2100983" class="text">
+        </div>
+
+        <hr>
+        <h2>Контактные данные покупателя</h2>
+
+        <div class="contact_details">
+            <div class="contact">
+                Email <br>
+                <input type="text" placeholder="someone@example.com" class="text" required>
+            </div>
+            <div class="contact">
+                Фамилия Имя<br>
+                <input type="text" placeholder="Иванов Иван" class="text">
+            </div>
+            <div class="contact">
+                Код страны
+                <br>
+                <select value="1" selected id="country_code">
+                    <option value="BY">+375</option>
+                    <option value="RU">+7</option>
+                    <option value="UA">+380</option>
+
+                </select>
+            </div>
+            <div class="contact">
+                Номер телефона
+                <br>
+                <input type="text" placeholder="9 цифр включая код оператора" class="text">
+            </div>
+        </div>
+    </form>
+
+    <button id="buy">Заказать билет</button>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

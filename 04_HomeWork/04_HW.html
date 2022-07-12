@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="google" value="notranslate">
+    <title>04_HW</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.4.2/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <h3>Create new color</h3>
+        <br>
+        <b>Color:</b><em></em>
+        <br>
+        <input type="text" required placeholder="write color">
+        <br><br>
+        <b>Type:</b>
+        <select id="typeColor">
+            <option>RGB</option>
+            <option>RGBA</option>
+            <option>HEX</option>
+        </select>
+        <br><br>
+        <b>Code:</b><em></em>
+        <br>
+        <input type="text" required placeholder="write color code">
+        <br><br>
+        <button>Save</button>
+
+    </header>
+
+    <main>
+        <h3>All colors</h3>
+        <div addColor="container-fluid">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div id="box1">
+                        <div class="cell">YELLOWGREEN
+                            <br>
+                            RGB
+                            <br>
+                            154,205,50
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div id="box2">
+                        <div class="cell">DARKCYAN
+                            <br>
+                            RGBA
+                            <br>
+                            0,139,139,1
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div id="box3">
+                        <div class="cell">ORANGERED
+                            <br>
+                            HEX
+                            <br>
+                            #FF4500
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer></footer>
+
+    <script src="main.js"></script>
+
+</html>

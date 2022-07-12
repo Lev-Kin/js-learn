@@ -1,0 +1,9 @@
+body {
+    font-family: Arial, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    background-color:blanchedalmond;
+    margin: 24px 32px 24px 32px;
+    min-width: 1080px;
+    max-width: 1280px;
+}

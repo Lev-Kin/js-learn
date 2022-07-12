@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Exam_T02</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h3>Горизонтальные линии</h3>
+    <p>Выберите значения параметров, которые требуется изменить, и нажмите кнопку <b>Выполнить.</b></p>
+    <p id="line"></p>
+    <br>
+    <br>
+    <br>
+    <form action="" name="form1">
+        <p>Выравнивание</p>
+        <input type="radio" name="align" value="left"><label for="left">LEFT</label>
+        <p></p>
+        <input type="radio" name="align" value="center" checked><label for="center">CENTER</label>
+        <p></p>
+        <input type="radio" name="align" value="right"><label for="left">RIGHT</label>
+        <p></p>
+        <p></p>
+        <input type="number" name="size" value="1"><label for="size"> толщина линии (size)</label>
+        <p></p>
+        <input type="number" name="width" value="1"><label for="width"> длина линии (width)</label>
+        <p></p>
+        <label for="color">Цвет линии(color)</label>
+        <p></p>
+        <select name="color">
+            <option selected value="green">green</option>
+            <option value="red">red</option>
+            <option value="yellow">yellow</option>
+            <option value="blue">blue</option>
+        </select>
+        <p></p>
+        <button onclick="Execute(event)">Выполнить</button>
+    </form>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

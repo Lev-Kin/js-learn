@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>02_HW_T02</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <ul>
+        <li><span onclick="show('pc')">This PC</span>
+            <ul id="pc">
+                <li><span onclick="show('disc_C')">Local Disk (C:)</span>
+                    <ul id="disc_C">
+                        <li>Program Files</li>
+                        <li>Users</li>
+                        <li>Windows</li>
+                    </ul>
+                </li>
+                <li><span onclick="show('disk_D')">Local Disk (D:)</span>
+                    <ul id="disk_D">
+                        <li>New Folder 1</li>
+                        <li>New Folder 2</li>
+                        <li>New Folder 3</li>
+                    </ul>
+                </li>
+                <li><span>Local Disk (E:)</span></li>
+            </ul>
+        </li>
+    </ul>
+    <script src="main.js"></script>
+
+</html>

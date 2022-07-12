@@ -1,0 +1,16 @@
+body {
+    font-family: Arial, Verdana, sans-serif;
+    font-size: 16px;
+    background-color: blanchedalmond;
+    padding: 24px 32px 24px 32px;
+    min-width: 854px;
+    max-width: 427px;
+}
+
+.my_button {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 30px;
+}

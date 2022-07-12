@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="google" value="notranslate">
+  <title>03_HW_T06</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <form>
+    <label for="trainName">Direction: </label>
+
+    <select id="trainName">
+      <option>Гомель-Минск</option>
+      <option>Гомель-Брест</option>
+      <option>Гомель-Гродно</option>
+    </select>
+
+    <label for="date">Date: </label>
+    <input id="date" type="date">
+    <button id="search" type="button">Search</button>
+    <hr>
+
+    <div id="vagon">
+      <label><input type="checkbox" value="1">1</label>
+      <label><input type="checkbox" value="3">3</label>
+      <label><input type="checkbox" value="5">5</label>
+      <label><input type="checkbox" value="7">7</label>
+      <label style="padding-right: 1%"><input type="checkbox" value="9">9</label>
+      <label><input type="checkbox" value="11">11</label>
+      <label><input type="checkbox" value="13">13</label>
+      <label><input type="checkbox" value="15">15</label>
+      <label><input type="checkbox" value="17">17</label>
+      <label><input type="checkbox" value="19">19</label>
+      <label><input type="checkbox" value="21">21</label>
+      <label><input type="checkbox" value="23">23</label>
+      <label><input type="checkbox" value="25">25</label>
+      <label><input type="checkbox" value="27">27</label>
+      <br>
+      <label><input type="checkbox" value="2">2</label>
+      <label><input type="checkbox" value="4">4</label>
+      <label><input type="checkbox" value="6">6</label>
+      <label><input type="checkbox" value="8">8</label>
+      <label><input type="checkbox" value="10">10</label>
+      <label><input type="checkbox" value="12">12</label>
+      <label><input type="checkbox" value="14">14</label>
+      <label><input type="checkbox" value="16">16</label>
+      <label><input type="checkbox" value="18">18</label>
+      <label><input type="checkbox" value="20">20</label>
+      <label><input type="checkbox" value="22">22</label>
+      <label><input type="checkbox" value="24">24</label>
+      <label><input type="checkbox" value="26">26</label>
+      <label><input type="checkbox" value="27">28</label>
+    </div>
+
+    <button id="buy" type="button">BUY</button>
+  </form>
+
+  <table>
+    <caption style="opacity: inherit ">My tickets :</caption>
+    <thead>
+      <tr>
+        <th>Direction</th>
+        <th>Date</th>
+        <th>Seat</th>
+      </tr>
+    </thead>
+    <tbody id="ticket"></tbody>
+  </table>
+
+  <script src="main.js"></script>
+
+</html>

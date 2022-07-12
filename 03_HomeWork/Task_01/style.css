@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, Verdana, sans-serif;
+    font-size: 16px;
+    background-color: blanchedalmond;
+    padding: 24px 32px 24px 32px;
+    min-width: 854px;
+    max-width: 427px;
+}
+
+.name,
+.text {
+    width: 100%;
+    height: 20%;
+    padding: 10px;
+    margin: 0;
+    border: 2px solid rgb(8, 0, 0);
+}
+
+.name {
+    font-weight: bold;
+}
+
+.text {
+    border-top: 0px;
+}
+
+.centerText {
+    text-align: center;
+    font-weight: bold;
+}
+
+.form {
+    text-align: left;
+    position: absolute;
+    margin: 0px;
+}
+
+textarea {
+    vertical-align: top;
+    width: 85%;
+    height: 2em;
+}
+
+span {
+    white-space: pre-wrap;
+    float: right;
+}
+
+button {
+    padding-left: 48.5%;
+    padding-right: 48.5%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
